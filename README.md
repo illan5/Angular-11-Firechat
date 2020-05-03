@@ -1,6 +1,11 @@
-# Firechat
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png) ![alt text](https://cdn.iconscout.com/icon/free/png-256/firebase-1-282796.png)
+
+# Firechat
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+Using Firebase.
+
+![](Heroesapp-demo.gif)
 
 ## Development server
 
@@ -25,3 +30,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## References
+
+This is an exercise of Udemy course (https://www.udemy.com/angular-2-fernando-herrera/) By Fernando Herrera (https://github.com/Klerith)
