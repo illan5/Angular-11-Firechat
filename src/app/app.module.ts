@@ -11,6 +11,8 @@ import { AngularFirestore, AngularFirestoreModule } from '@angular/fire/firestor
 import { environment } from '../environments/environment';
 import { ChatComponent } from './components/chat/chat.component';
 
+import { ChatService } from "./providers/chat.service";
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ChatComponent } from './components/chat/chat.component';
     AngularFireModule.initializeApp(environment.firebase),
     FormsModule
   ],
-  providers: [],
+  providers: [
+    ChatService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
