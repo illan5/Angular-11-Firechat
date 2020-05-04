@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-app-ce552": {
+      "hosting": {
+        "firechat": [
+          "login-app-ce552"
+        ]
+      }
+    }
+  }
+}
