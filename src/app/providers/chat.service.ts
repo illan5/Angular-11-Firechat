@@ -34,11 +34,17 @@ export class ChatService {
   }
 
   login( proveedor: string ) {
-    this.auth.signInWithPopup(new auth.GoogleAuthProvider());
+    if ( proveedor === 'google'){
+      this.auth.signInWithPopup(new auth.GoogleAuthProvider());
+    } else {
+      this.auth.signInWithPopup(new auth.TwitterAuthProvider());
+    }
+    
   }
   logout() {
     this.auth.signOut();
-  }
+    this.usuario = {}
+;  }
 
   cargarMensajes(){
     this.itemsCollection = this.afs.collection<Mensaje>('chats', ref => ref.orderBy('fecha','desc')
