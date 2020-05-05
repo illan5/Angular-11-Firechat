@@ -5,7 +5,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 Using Firebase.
 
-![](Heroesapp-demo.gif)
+![](Firechat-demo.gif)
 
 ## Development server
 
